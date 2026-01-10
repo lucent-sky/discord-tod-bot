@@ -9,7 +9,7 @@
  * get_random_truth() and get_random_dare() to randomly select *from*
  * truth or dare, respectively.  This should prevent it from getting
  * affected by lopsided amounts of prompts, but may cause more repeats
- * if one side has few prompts.  
+ * if one side has few prompts.
  */
 
 #include <dpp/dpp.h>
