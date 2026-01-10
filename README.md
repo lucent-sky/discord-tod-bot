@@ -22,16 +22,27 @@ JSON-backed storage for custom prompts.
 
 ## Project Structure
 tod_bot/
+
 ├── commands/
+
 │ ├── add.cpp
+
 │ ├── truth.cpp
+
 │ ├── dare.cpp
+
 │ └── random.cpp
+
 ├── utils/
+
 │ └── json_store.cpp
+
 ├── main.cpp
+
 ├── CMakeLists.txt
+
 └── README.md
+
 
 
 ## Setup
