@@ -3,8 +3,7 @@
  *
  * This file implements a thread-safe JSON-backed storage system for truth
  * and dare prompts. It supports random prompt selection, safe concurrent
- * access, disk persistence, and hot-reloading when the backing JSON file
- * is modified while the bot is running.
+ * access, and disk persistence
  */
 
 
