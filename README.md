@@ -4,6 +4,10 @@ A lightweight Discord bot written in modern C++ using the **D++ (DPP)** library.
 This bot provides Truth-or-Dare gameplay via slash commands, with persistent
 JSON-backed storage for custom prompts.
 
+Note: this project was made in under a day as part of a fun challenge and a break
+from my current, larger project which is still in progress.  As such, it's not
+particularly feature-rich, but I'm open to adding more in the future.
+
 ## Features
 
 - '/truth' — Get a random truth prompt
@@ -22,16 +26,27 @@ JSON-backed storage for custom prompts.
 
 ## Project Structure
 tod_bot/
+
 ├── commands/
+
 │ ├── add.cpp
+
 │ ├── truth.cpp
+
 │ ├── dare.cpp
+
 │ └── random.cpp
+
 ├── utils/
+
 │ └── json_store.cpp
+
 ├── main.cpp
+
 ├── CMakeLists.txt
+
 └── README.md
+
 
 
 ## Setup
